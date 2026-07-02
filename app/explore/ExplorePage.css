@@ -43,8 +43,8 @@
     right: 0;
     bottom: 0;
     /* Updated with a dynamic image fallback or link to your uploaded abstract wave asset */
-    background-image: url('/path-to-your-uploaded-gradient-image.png');
-    background-size: 115% auto; /* Fixed: Hard values prevent jitter during scale transforms */
+    background-image: linear-gradient(135deg, rgba(10, 10, 20, 0.4), rgba(30, 20, 40, 0.5)), url('https://images.unsplash.com/photo-1533134486753-c833f0ed4866?q=80&w=2560&auto=format&fit=crop');
+    background-size: cover;
     background-position: center;
     z-index: -1; 
     animation: heroZoom 12s infinite alternate ease-in-out; /* Slowed down slightly for premium feel */
